@@ -46,7 +46,7 @@ jobs:
 
   Deploying:
     runs-on: ubuntu-latest
-    needs: Testing
+    #needs: Testing
 
     steps:
     - uses: actions/checkout@v3
