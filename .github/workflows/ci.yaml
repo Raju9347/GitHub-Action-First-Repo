@@ -1,7 +1,9 @@
 name: My First GitHub Actions
 
-on: [push]
+on: 
   workflow_dispatch:
+  push:
+    branches: ['**']
 jobs:
   Building:
     runs-on: ubuntu-latest
